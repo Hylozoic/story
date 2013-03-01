@@ -93,13 +93,14 @@ body {
     min-height: 740px;
     color: #1a1a1a;
 
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background: #f2f2f2;
+    /*background: rgb(215, 215, 215);*/
+    /*background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));*/
 }
 
 /*
@@ -308,7 +309,7 @@ a:focus {
     display: block;
     font-size: 120px;
     line-height: 120px;
-    color: #EF6143;
+    color: #AECC00;
 }
 
 #big .thoughts {
@@ -325,8 +326,8 @@ a:focus {
     text-align: center;
 }
 
-#tiny b {
-    color: #EF6143;
+#tiny em {
+    color: #AECC00;
 }
 
 /*
@@ -345,6 +346,10 @@ a:focus {
     -ms-transition:     0.5s;
     -o-transition:      0.5s;
     transition:         0.5s;
+}
+
+#its b {
+    color: #EF6143;
 }
 
 /*
@@ -444,6 +449,10 @@ a:focus {
 
 #one-more-thing li {
     font-size: 80%;
+}
+
+#one-more-thing strong {
+    color: #AECC00;
 }
 
 /*
